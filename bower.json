@@ -1,0 +1,23 @@
+{
+    "name": "tv.teamwild.teamwild",
+    "version": "0.1.0",
+    "dependencies": {
+        "angular": ">= v1.2.0-rc.3",
+        "angular-cookies": ">= v1.2.0-rc.3",
+        "angular-resource": ">= v1.2.0-rc.3",
+        "ngBase64": ">= v2.0.0",
+        "angular-ui-router": ">= 0.2.0",
+        "bootstrap": ">= 3.0.0",
+        "ngstorage": ">= 0.3.0"
+    },
+    "devDependencies": {
+        "angular": ">= v1.2.0-rc.3",
+        "angular-mocks": ">= v1.2.0-rc.3",
+        "angular-cookies": ">= v1.2.0-rc.3",
+        "angular-resource": ">= v1.2.0-rc.3",
+        "ngBase64": ">= v2.0.0",
+        "angular-ui-router": ">= 0.2.0",
+        "bootstrap": ">= 3.0.0",
+        "ngstorage": ">= 0.3.0"
+    }
+}

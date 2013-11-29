@@ -1,0 +1,20 @@
+{
+    "name": "tv.teamwild.teamwild",
+    "version": "0.1.0",
+    "devDependencies": {
+        "grunt": "latest",
+        "bower": "latest",
+        "grunt-cli": "latest",
+        "phantomjs": "latest",
+        "grunt-contrib-jshint": "latest",
+        "grunt-contrib-watch": "latest",
+        "grunt-contrib-uglify": "latest",
+        "grunt-karma": "latest",
+        "grunt-notify": "latest",
+        "grunt-strip": "latest",
+        "grunt-text-replace": "latest"
+    },
+    "scripts": {
+        "test": "grunt testAll"
+    }
+}

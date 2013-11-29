@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+
+        <link rel="stylesheet" type="text/css" href="lib/bootstrap/dist/css/bootstrap.css">
+
+        <script src="lib/angular/angular.js"></script>
+        <script src="lib/angular-cookies/angular-cookies.js"></script>
+        <script src="lib/angular-resource/angular-resource.js"></script>
+        <script src="lib/angular-ui-router/release/angular-ui-router.js"></script>
+        <script src="lib/ngstorage/ngStorage.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+
+        <title>Phoneplate</title>
+    </head>
+    <body>
+
+        <div ui-view id="topElement">
+        </div>
+
+        <script type="text/javascript" src="phonegap.js"></script>
+
+        <script type="text/javascript" src="js/module.js"></script>
+
+        <script type="text/javascript" src="js/state/module.js"></script>
+        <script type="text/javascript" src="js/state/main.js"></script>
+
+        <script type="text/javascript" src="js/control/module.js"></script>
+        <script type="text/javascript" src="js/control/main.js"></script>
+
+        <script type="text/javascript">
+            document.addEventListener("deviceready", function() {
+                angular.bootstrap(document, ['app']);
+            }, false);
+        </script>
+    </body>
+</html>
