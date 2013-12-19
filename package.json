@@ -12,7 +12,11 @@
         "grunt-karma": "latest",
         "grunt-notify": "latest",
         "grunt-strip": "latest",
-        "grunt-text-replace": "latest"
+        "grunt-text-replace": "latest",
+        "grunt-phonegap": "~0.6.2",
+        "grunt-contrib-clean": "~0.5.0",
+        "grunt-bower-task": "~0.3.4",
+        "grunt-http-server": "0.0.4"
     },
     "scripts": {
         "test": "grunt testAll"

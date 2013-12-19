@@ -1,0 +1,7 @@
+{
+    "plugins": [
+        "org.apache.cordova.splashscreen",
+        "org.apache.cordova.device",
+        "org.apache.cordova.network-information"
+    ]
+}
